@@ -1,9 +1,59 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Detailed Grid Layout Adjustment</title>
+    <title>Personal Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <a href="#" class="logo"></a>
+
+        <nav class="nav">
+          <ul class="nav__list">
+            <li><a href="#home" class="nav__link">Home</a></li>
+            <li><a href="#about" class="nav__link">About</a></li>
+            <li><a href="#work" class="nav__link">Work</a></li>
+            <li><a href="#process" class="nav__link">Process</a></li>
+            <li><a href="#contacts" class="nav__link">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="home">
+      <section class="hero">
+        <div class="container hero__container">
+          <h1 class="hero__title">Design And Layout</h1>
+          <p class="hero__description">Will put proper text here later</p>
+          <a href="#contacts" class="btn btn--primary">Contact me</a>
+        </div>
+      </section>
+      <section class="about__me" id="about">
+        <div class="container">
+          <h2 class="section-title">About me</h2>
+        </div>
+      </section>
+      <section class="stats">
+        <div class="container stats__container"></div>
+      </section>
+      <section class="how__work" id="work">
+        <div class="container">
+          <h2 class="section-title">How I work</h2>
+        </div>
+      </section>
+    </main>
+    <footer class="footer" id="contact">
+      <div class="container footer__container">
+        <p class="footer__copy">© 2018 Ostap Ivanenko. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
 </html>
