@@ -38,6 +38,7 @@ ul {
 .header {
   padding: 20px 0;
   border-bottom: 1px solid #eee;
+  background-color: #eeeff1;
 }
 
 .header__container {
@@ -64,6 +65,7 @@ ul {
 
 .hero {
   padding: 100px 0;
+  background-color: #eeeff1;
 }
 
 .hero__container {
@@ -91,8 +93,24 @@ ul {
   color: #fff;
 }
 
+.about__me {
+  max-width: 540px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 119px 0 110px;
+}
+
+.about__me_p {
+  color: #727272;
+}
+
 section {
   padding: 80px 0;
+}
+
+.stats {
+  background-color: #34547a;
+  padding: 100px 0;
 }
 
 .section-title {
@@ -104,7 +122,20 @@ section {
 .stats__container {
   display: flex;
   justify-content: space-between;
-  gap: 20px;
+  gap: 49px;
+}
+
+.stat {
+  display: flex;
+  color: #ffffff;
+}
+
+.stat span {
+  font-weight: 200;
+}
+
+.svg_project {
+  margin-right: 20px;
 }
 
 .footer {
