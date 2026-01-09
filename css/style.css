@@ -47,20 +47,17 @@ ul {
   justify-content: space-between;
 }
 
-.logo {
-  font-weight: 700;
-  font-size: 20px;
-}
-
 .nav__list {
   display: flex;
   gap: 30px;
+  margin-left: 250px;
+  gap: 80px;
 }
 
 .nav__link {
   font-weight: 500;
-  text-transform: uppercase;
   font-size: 14px;
+  text-transform: uppercase;
 }
 
 .hero {
@@ -90,7 +87,8 @@ ul {
 
 .btn--primary {
   background-color: var(--color-primary);
-  color: #fff;
+  color: #ffffff;
+  text-transform: uppercase;
 }
 
 .about__me {
@@ -98,6 +96,9 @@ ul {
   margin: 0 auto;
   text-align: center;
   padding: 119px 0 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .about__me_p {
@@ -148,7 +149,7 @@ section {
   text-align: center;
 }
 
-.how-i-work{
+.how-i-work {
   background-color: #eeeff1;
   padding: 80px 0;
   text-align: center;
@@ -172,16 +173,16 @@ section {
 .video-wrapper {
   position: relative;
   width: 100%;
-max-width: 1110px;
-height: 600px;
-margin: 0 auto;
-overflow: hidden;
+  max-width: 1110px;
+  height: 600px;
+  margin: 0 auto;
+  overflow: hidden;
 }
 .video-wrapper img {
-width: 100%;
-height: 100%;
-object-fit: cover;
-display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 .video-wrapper::before {
   content: "";
@@ -194,14 +195,14 @@ display: block;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   z-index: 2;
 
-width: 64px;
-height: 64px;
-border-radius: 50%;
-border: none;
-font-size: 24px;
-cursor: pointer;
-background: rgba(255, 255, 255, 0.85);
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.85);
 }
