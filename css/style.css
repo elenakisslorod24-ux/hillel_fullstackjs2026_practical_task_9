@@ -50,7 +50,6 @@ ul {
 .nav__list {
   display: flex;
   gap: 30px;
-  margin-left: 250px;
   gap: 80px;
 }
 
@@ -66,7 +65,7 @@ ul {
 }
 
 .hero__container {
-  max-width: 600px;
+  max-width: 1100px;
 }
 
 .hero__title {
@@ -77,6 +76,7 @@ ul {
 .hero__description {
   color: var(--color-muted);
   margin-bottom: 30px;
+  width: 540px;
 }
 
 .btn {
@@ -91,6 +91,10 @@ ul {
   text-transform: uppercase;
 }
 
+.btn--primary:visited {
+  color: #fff94a;
+}
+
 .about__me {
   max-width: 540px;
   margin: 0 auto;
@@ -101,7 +105,7 @@ ul {
   align-items: center;
 }
 
-.about__me_p {
+.about__me-p {
   color: #727272;
 }
 
@@ -126,42 +130,32 @@ section {
   gap: 49px;
 }
 
-.stat {
+.stats__item {
   display: flex;
   color: #ffffff;
 }
 
-.stat span {
+.stats__item span {
   font-weight: 200;
 }
 
-.svg_project {
+.stats__svg {
   margin-right: 20px;
 }
 
-.footer {
-  background-color: var(--color-primary);
-  color: #fff;
-  padding: 30px 0;
-}
-
-.footer__container {
-  text-align: center;
-}
-
-.how-i-work {
+.how {
   background-color: #eeeff1;
   padding: 80px 0;
   text-align: center;
 }
 
-.how-title {
+.how__title {
   font-weight: 700;
   font-size: 32px;
   text-align: center;
   margin-bottom: 16px;
 }
-.how-text {
+.how__text {
   max-width: 540px;
   margin: 0 auto 32px;
   font-weight: 400;
@@ -170,7 +164,8 @@ section {
   text-align: center;
   color: #272725;
 }
-.video-wrapper {
+
+.how__video-wrapper {
   position: relative;
   width: 100%;
   max-width: 1110px;
@@ -178,19 +173,22 @@ section {
   margin: 0 auto;
   overflow: hidden;
 }
-.video-wrapper img {
+
+.how__video-wrapper img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
 }
-.video-wrapper::before {
+
+.how__video-wrapper::before {
   content: "";
   position: absolute;
   inset: 0;
   background: rgba(0, 0, 0, 0.65);
   z-index: 1;
 }
+
 .play-btn {
   position: absolute;
   top: 50%;
@@ -205,4 +203,36 @@ section {
   font-size: 24px;
   cursor: pointer;
   background: rgba(255, 255, 255, 0.85);
+}
+
+.footer {
+  background-color: var(--color-primary);
+  color: #fff;
+  padding: 30px 0;
+}
+
+.footer__name {
+  font-size: 20px;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer__copy {
+  font-size: 13px;
+}
+
+a:visited {
+  color: rgb(180, 85, 180);
+}
+
+a:hover {
+  color: rgb(255, 255, 255);
+}
+
+a:active {
+  color: rgb(161, 71, 71);
 }
