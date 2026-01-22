@@ -1,0 +1,24 @@
+{
+  "name": "hillel_fullstackjs2026_practical_task_9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elenakisslorod24-ux/hillel_fullstackjs2026_practical_task_9.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/elenakisslorod24-ux/hillel_fullstackjs2026_practical_task_9/issues"
+  },
+  "homepage": "https://github.com/elenakisslorod24-ux/hillel_fullstackjs2026_practical_task_9#readme",
+  "devDependencies": {
+    "sass": "^1.97.3"
+  }
+}
