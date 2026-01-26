@@ -24,6 +24,5 @@ ul {
 }
 
 .container {
-  @include container(40px, $container-width);
+  @include container();
 }
-

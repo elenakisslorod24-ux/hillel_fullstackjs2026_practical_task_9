@@ -1,0 +1,17 @@
+@use "../base" as *;
+
+.footer {
+  background-color: $color-primary;
+  color: #fff;
+  padding: 30px 0;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  &__copy {
+    font-size: 13px;
+  }
+}

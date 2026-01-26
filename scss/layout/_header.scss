@@ -30,19 +30,16 @@
 
     &:active {
       opacity: 0.75;
-      padding-bottom: 4px;
     }
   }
 }
 
-/* Tablet */
 @include respond-max($bp-tablet) {
   .nav__list {
     gap: 24px;
   }
 }
 
-/* Mobile */
 @include respond-max($bp-mobile) {
   .header__container {
     display: block;
@@ -51,15 +48,9 @@
   .nav__list {
     display: block;
     margin-top: 12px;
-
-    li + li {
-      margin-top: 10px;
-    }
   }
 
-  .nav__link {
-    display: block;
-    padding: 8px 0;
+  .nav__list li + li {
+    margin-top: 10px;
   }
 }
-body { outline: 5px solid red; }
